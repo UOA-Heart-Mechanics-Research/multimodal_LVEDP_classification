@@ -1,0 +1,33 @@
+model:
+  resnet_out_dim: 400
+  tgcn_out_dim: 128
+  nb_clinical_features: 6
+  alignment_dim: 64
+data:
+  mesh_nodes: 1570
+  mesh_stats:
+    mean_val_x: 82.20259349
+    mean_val_y: 80.75804349
+    mean_val_z: 61.75819021
+    max_dim: 102.76075795230324
+  clinical_stats:
+    mean_age: 58.66942149
+    std_age: 13.15036274
+    mean_weight: 82.77561983
+    std_weight: 17.81920465
+    mean_height: 172.27272727
+    std_height: 8.17878732
+    mean_sbp: 121.95867769
+    std_sbp: 16.05383335
+    mean_dbp: 73.80165289
+    std_dbp: 12.92036629
+training:
+  learning_rate: 0.01
+  positive_weight: 1.71 
+  null_weight: 0.71
+  T_0: 5
+  T_mult: 2
+  eta_min: 1e-6
+  seed: 42
+test:
+  indeterminate_cases: ['BB027', 'BB034', 'BB061', 'BB064', 'BB071', 'BB082', 'BB084', 'BB102', 'BB108', 'BB127', 'BB129', 'BB140', 'BB144', 'BB214']
