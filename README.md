@@ -65,6 +65,7 @@ python main.py --name <run_name> [--cross_val] --modalities <modalities> --input
 
 **Without Cross-Validation:**
 
+```bash
 dataset_folder/
 
 ├── train/
@@ -84,9 +85,10 @@ dataset_folder/
     ├── XX012.h5
 
     └── ...
+```
 
 **With Cross-Validation:**
-
+```bash
 dataset_folder/
 
 ├── folds/
@@ -110,6 +112,7 @@ dataset_folder/
     ├── XX012.h5
 
     └── ...
+```
 
 **Each `.h5` file (one per patient) contains:**
 
