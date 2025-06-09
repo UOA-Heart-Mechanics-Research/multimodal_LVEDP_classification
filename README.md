@@ -1,6 +1,9 @@
 ### Introduction
 
-This repository contains a multimodal machine learning model for classifying left ventricular end-diastolic pressure (LVEDP), as described in *"A Multimodal Machine Learning Approach for Identifying Elevated Left Ventricular End-Diastolic Pressure" by Mathilde Verlyck, Debbie Zhao, Edward Ferdian, Stephen Creamer, Gina Quill, Katrina Poppe, Thiranja Prasad Babarenda Gamage, Alistair Young, and Martyn Nash*, presented at FIMH 2025.
+This repository contains a multimodal machine learning model for classifying left ventricular end-diastolic pressure (LVEDP), as described in *"A Multimodal Machine Learning Approach for Identifying Elevated Left Ventricular End-Diastolic Pressure" by Mathilde Verlyck, Debbie Zhao, Edward Ferdian, Stephen Creamer, Gina Quill, Katrina Poppe, Thiranja Prasad Babarenda Gamage, Alistair Young, and Martyn Nash*, presented at the 13th International Conference on Functional Imaging and Modeling of the Heart (FIMH) in Dallas, TX, USA, June 1–5, 2025.
+
+Please cite the following paper if using this work:
+> Verlyck MA, Zhao D, Ferdian E, Creamer SA, Quill GM, Poppe KK, Babarenda Gamage TP, Young AA, Nash MP. A Multimodal Machine Learning Approach for Identifying Elevated Left Ventricular End-Diastolic Pressure. Lect Notes Comput Sci (Including Subser Lect Notes Artif Intell Lect Notes Bioinformatics) 2025;15672:231–242. https://doi.org/10.1007/978-3-031-94559-5_21.
 
 Pretrained model weights from the published version are available upon request by contacting [mathilde.verlyck@auckland.ac.nz](mailto:mathilde.verlyck@auckland.ac.nz).
 
