@@ -65,52 +65,40 @@ python main.py --name <run_name> [--cross_val] --modalities <modalities> --input
 
 **Without Cross-Validation:**
 
-```bash
+```
 dataset_folder/
-
 ├── train/
-
 │   ├── XX003.h5
-
 │   └── ...
-
 ├── val/
-
 │   ├── XX007.h5
-
 │   └── ...
-
 └── test/
-
     ├── XX012.h5
-
     └── ...
 ```
 
 **With Cross-Validation:**
-```bash
+```
 dataset_folder/
-
 ├── folds/
-
 │   ├── fold_0/
-
 │   │   ├── train/
-
+│   │   │   ├── XX001.h5
+│   │   │   └── ...
 │   │   └── val/
-
+│   │       ├── XX002.h5
+│   │       └── ...
 │   ├── fold_1/
-
 │   │   ├── train/
-
+│   │   │   ├── XX003.h5
+│   │   │   └── ...
 │   │   └── val/
-
+│   │       ├── XX004.h5
+│   │       └── ...
 │   └── ...
-
 └── test/
-
     ├── XX012.h5
-
     └── ...
 ```
 
